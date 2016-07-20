@@ -1,0 +1,40 @@
+#pragma once
+
+#include "randomgraph.h"
+
+#include <QVariant>
+#include <QAction>
+#include <QApplication>
+#include <QButtonGroup>
+#include <QDialog>
+#include <QDialogButtonBox>
+#include <QHeaderView>
+#include <QTableWidget>
+#include <QPushButton>
+
+class CGraph;
+
+class CPropertiesDlg : public QDialog
+{
+    Q_OBJECT
+
+public:
+    CPropertiesDlg(QWidget*);
+
+    void   setGraph(CGraph*);
+
+    void   reset() {onClear();}
+
+private slots:
+    void onClear();
+    void onSave();
+
+private:
+    void setupUi();
+
+    QTableWidget* m_tableView;
+    QPushButton*  m_btnClear;
+    QPushButton*  m_btnSave;
+    RandomGraph*  m_pParent;
+
+};

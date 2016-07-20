@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<graph  name="disconnected">
+  <nodes count="15">
+    <node>
+      <node_id>0</node_id>
+      <node_label>A</node_label>
+      <x_loc>50</x_loc>
+      <y_loc>400</y_loc>
+    </node>
+    <node>
+      <node_id>1</node_id>
+      <node_label>B</node_label>
+      <x_loc>150</x_loc>
+      <y_loc>400</y_loc>
+    </node>
+    <node>
+      <node_id>2</node_id>
+      <node_label>C</node_label>
+      <x_loc>100</x_loc>
+      <y_loc>500</y_loc>
+    </node>
+    <node>
+      <node_id>3</node_id>
+      <node_label>D</node_label>
+      <x_loc>150</x_loc>
+      <y_loc>200</y_loc>
+    </node>
+    <node>
+      <node_id>4</node_id>
+      <node_label>E</node_label>
+      <x_loc>150</x_loc>
+      <y_loc>275</y_loc>
+    </node>
+    <node>
+      <node_id>5</node_id>
+      <node_label>F</node_label>
+      <x_loc>100</x_loc>
+      <y_loc>150</y_loc>
+    </node>
+    <node>
+      <node_id>6</node_id>
+      <node_label>G</node_label>
+      <x_loc>200</x_loc>
+      <y_loc>150</y_loc>
+    </node>
+    <node>
+      <node_id>7</node_id>
+      <node_label>H</node_label>
+      <x_loc>430</x_loc>
+      <y_loc>269</y_loc>
+    </node>
+    <node>
+      <node_id>8</node_id>
+      <node_label>I</node_label>
+      <x_loc>349</x_loc>
+      <y_loc>230</y_loc>
+    </node>
+    <node>
+      <node_id>9</node_id>
+      <node_label>J</node_label>
+      <x_loc>509</x_loc>
+      <y_loc>230</y_loc>
+    </node>
+    <node>
+      <node_id>10</node_id>
+      <node_label>K</node_label>
+      <x_loc>399</x_loc>
+      <y_loc>200</y_loc>
+    </node>
+    <node>
+      <node_id>11</node_id>
+      <node_label>L</node_label>
+      <x_loc>480</x_loc>
+      <y_loc>200</y_loc>
+    </node>
+    <node>
+      <node_id>12</node_id>
+      <node_label>M</node_label>
+      <x_loc>550</x_loc>
+      <y_loc>200</y_loc>
+    </node>
+    <node>
+      <node_id>13</node_id>
+      <node_label>N</node_label>
+      <x_loc>372</x_loc>
+      <y_loc>168</y_loc>
+    </node>
+    <node>
+      <node_id>14</node_id>
+      <node_label>O</node_label>
+      <x_loc>429</x_loc>
+      <y_loc>168</y_loc>
+    </node>
+  </nodes>
+  <edges count="6">
+    <edge directed="false">
+      <src>0</src>
+      <dst>1</dst>
+    </edge>
+    <edge directed="false">
+      <src>1</src>
+      <dst>2</dst>
+    </edge>
+    <edge directed="false">
+      <src>2</src>
+      <dst>0</dst>
+    </edge>
+
+    <edge directed="false">
+      <src>3</src>
+      <dst>4</dst>
+    </edge>
+    <edge directed="false">
+      <src>3</src>
+      <dst>5</dst>
+    </edge>
+    <edge directed="false">
+      <src>3</src>
+      <dst>6</dst>
+    </edge>
+
+    <edge directed="false">
+      <src>7</src>
+      <dst>8</dst>
+    </edge>
+    <edge directed="false">
+      <src>7</src>
+      <dst>9</dst>
+    </edge>
+    <edge directed="false">
+      <src>8</src>
+      <dst>10</dst>
+    </edge>
+    <edge directed="false">
+      <src>9</src>
+      <dst>11</dst>
+    </edge>
+    <edge directed="false">
+      <src>9</src>
+      <dst>12</dst>
+    </edge>
+    <edge directed="false">
+      <src>10</src>
+      <dst>14</dst>
+    </edge>
+    <edge directed="false">
+      <src>10</src>
+      <dst>13</dst>
+    </edge>
+    
+  </edges>
+</graph>

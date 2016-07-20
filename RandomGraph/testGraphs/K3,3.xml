@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<graph  name="3,3 Bipartite">
+  <nodes count="6">
+    <node>
+      <node_id>0</node_id>
+      <node_label>X0</node_label>
+      <x_loc>50</x_loc>
+      <y_loc>50</y_loc>
+    </node>
+    <node>
+      <node_id>1</node_id>
+      <node_label>X1</node_label>
+      <x_loc>50</x_loc>
+      <y_loc>150</y_loc>
+    </node>
+    <node>
+      <node_id>2</node_id>
+      <node_label>X2</node_label>
+      <x_loc>50</x_loc>
+      <y_loc>300</y_loc>
+    </node>
+    <node>
+      <node_id>3</node_id>
+      <node_label>Y0</node_label>
+      <x_loc>250</x_loc>
+      <y_loc>50</y_loc>
+    </node>
+    <node>
+      <node_id>4</node_id>
+      <node_label>Y1</node_label>
+      <x_loc>250</x_loc>
+      <y_loc>150</y_loc>
+    </node>
+    <node>
+      <node_id>5</node_id>
+      <node_label>Y2</node_label>
+      <x_loc>250</x_loc>
+      <y_loc>300</y_loc>
+    </node>
+  </nodes>
+  <edges count="9">
+    <edge directed="false">
+      <src>0</src>
+      <dst>3</dst>
+    </edge>
+    <edge directed="false">
+      <src>0</src>
+      <dst>4</dst>
+    </edge>
+    <edge directed="false">
+      <src>0</src>
+      <dst>5</dst>
+    </edge>
+    <edge directed="false">
+      <src>1</src>
+      <dst>3</dst>
+    </edge>
+    <edge directed="false">
+      <src>1</src>
+      <dst>4</dst>
+    </edge>
+    <edge directed="false">
+      <src>1</src>
+      <dst>5</dst>
+    </edge>
+    <edge directed="false">
+      <src>2</src>
+      <dst>3</dst>
+    </edge>
+    <edge directed="false">
+      <src>2</src>
+      <dst>4</dst>
+    </edge>
+    <edge directed="false">
+      <src>2</src>
+      <dst>5</dst>
+    </edge>
+    
+    
+    
+    
+  </edges>
+</graph>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<graph  name="Peterson">
+  <nodes count="10">
+    <node>
+      <node_id>0</node_id>
+      <node_label>0</node_label>
+      <x_loc>250</x_loc>
+      <y_loc>310</y_loc>
+    </node>
+    <node>
+      <node_id>1</node_id>
+      <node_label>1</node_label>
+      <x_loc>300</x_loc>
+      <y_loc>280</y_loc>
+    </node>
+    <node>
+      <node_id>2</node_id>
+      <node_label>2</node_label>
+      <x_loc>280</x_loc>
+      <y_loc>220</y_loc>
+    </node>
+    <node>
+      <node_id>3</node_id>
+      <node_label>3</node_label>
+      <x_loc>200</x_loc>
+      <y_loc>220</y_loc>
+    </node>
+    <node>
+      <node_id>4</node_id>
+      <node_label>4</node_label>
+      <x_loc>190</x_loc>
+      <y_loc>280</y_loc>
+    </node>
+    <node>
+      <node_id>5</node_id>
+      <node_label>5</node_label>
+      <x_loc>160</x_loc>
+      <y_loc>280</y_loc>
+    </node>
+    <node>
+      <node_id>6</node_id>
+      <node_label>6</node_label>
+      <x_loc>250</x_loc>
+      <y_loc>340</y_loc>
+    </node>
+    <node>
+      <node_id>7</node_id>
+      <node_label>7</node_label>
+      <x_loc>330</x_loc>
+      <y_loc>280</y_loc>
+    </node>
+    <node>
+      <node_id>8</node_id>
+      <node_label>8</node_label>
+      <x_loc>300</x_loc>
+      <y_loc>200</y_loc>
+    </node>
+    <node>
+      <node_id>9</node_id>
+      <node_label>9</node_label>
+      <x_loc>180</x_loc>
+      <y_loc>200</y_loc>
+    </node>
+  </nodes>
+  <edges count="15">
+    <edge directed="false">
+      <src>0</src>
+      <dst>6</dst>
+    </edge>
+    <edge directed="false">
+      <src>0</src>
+      <dst>2</dst>
+    </edge>
+    <edge directed="false">
+      <src>0</src>
+      <dst>3</dst>
+    </edge>
+    <edge directed="false">
+      <src>1</src>
+      <dst>7</dst>
+    </edge>
+    <edge directed="false">
+      <src>1</src>
+      <dst>4</dst>
+    </edge>
+    <edge directed="false">
+      <src>1</src>
+      <dst>3</dst>
+    </edge>
+    <edge directed="false">
+      <src>2</src>
+      <dst>8</dst>
+    </edge>
+    <edge directed="false">
+      <src>2</src>
+      <dst>4</dst>
+    </edge>
+    <edge directed="false">
+      <src>3</src>
+      <dst>9</dst>
+    </edge>
+    <edge directed="false">
+      <src>4</src>
+      <dst>5</dst>
+    </edge>
+    <edge directed="false">
+      <src>5</src>
+      <dst>6</dst>
+    </edge>
+    <edge directed="false">
+      <src>5</src>
+      <dst>9</dst>
+    </edge>
+    <edge directed="false">
+      <src>6</src>
+      <dst>7</dst>
+    </edge>
+    <edge directed="false">
+      <src>7</src>
+      <dst>8</dst>
+    </edge>
+    <edge directed="false">
+      <src>8</src>
+      <dst>9</dst>
+    </edge>
+  </edges>
+</graph><?xml version="1.0" encoding="utf-8"?>

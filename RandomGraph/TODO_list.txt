@@ -1,0 +1,76 @@
+(4) clip edges at node boundary
+
+(6) implement dragging of nodes (edges will follow when graph is redrawn)
+    see: http://stackoverflow.com/questions/16853942/qgraphicscene-redraw-on-qgraphicitem-move
+
+(12) implement input validation on model parameter dialog box.
+
+(16) implement / incorporate a layout mechanics, force-based would be best, I think..
+
+(17) do slides (1 day effort)
+
+==============================================================================================================
+(1) implement three random graph algorithms
+    -- erdos / renayi  ---- done
+	-- Barabasi / Albert 
+	   need initial number of nodes, with at least min degree = 2, number of time steps.
+	   see: https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model#Algorithm
+	   see: http://barabasilab.neu.edu/networksciencebook/download/network_science_december_ch5_2013.pdf
+	-- Watts / Strogatz ---- done
+	   see: https://en.wikipedia.org/wiki/Watts_and_Strogatz_model#Algorithm   (need number of nodes, b ( 0 <= b <= 1). and average degree K
+
+(2) finish implemenation of summary dialog
+    - implement as a modeless dialog.  
+    - column headers  
+    - extracting info from graph object  
+    - clear button  
+    - save (?) button
+
+(3) implement view menu items for   
+    - labels
+    - toolbars
+    - status bar
+
+(5) make node labels children of nodes  
+    - center labels in node
+
+(7) implement option dialog, allowing changing of bkg color, node color, edge weight, and font size.   
+
+(9) implement settings features  
+
+(10) implement file saving.  we will use a binary format for this  
+
+    header ...
+       ... version
+       ... encoding    (MSB/LSB)
+       ... dataSize    (32/64)
+	   ... model
+       ... node entry offset
+       ... node entry size
+       ... node entry count
+       ... edge entry offset
+       ... edge enty size
+       ... edge entry count
+       ... strtbl offset
+    node set ...
+       ... node_ndx             // index into string table 
+       ... node id              // integer
+       ... node_x
+       ... node_y
+    vertex set ...
+       ... edge_ndx
+       ... node_id_src
+       ... node_id_dst
+    strtable ...
+
+(11) implement file | open reading in above format  
+
+(13) complete statistics -- degree distribution for ER -- done
+                         -- degree distribution for WS -- done
+						 -- need path lenghts, ewww...for BA -- done
+						 -- change horizontal lables in aMatrix and dMatrix view -- done
+						 -- complete BFS through graphs. -- done(?)
+
+(14) tie the clean button on the main statistics window to the distribution window, forcing a reset.
+
+(15) implement the clear statistic window on the new model dialog

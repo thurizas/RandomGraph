@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<graph  name="bipartite-1,8">
+  <nodes count="9">
+    <node>
+      <node_id>0</node_id>
+      <node_label>A</node_label>
+      <x_loc>40</x_loc>
+      <y_loc>170</y_loc>
+    </node>
+    <node>
+      <node_id>1</node_id>
+      <node_label>B</node_label>
+      <x_loc>77</x_loc>
+      <y_loc>262</y_loc>
+    </node>
+    <node>
+      <node_id>2</node_id>
+      <node_label>C</node_label>
+      <x_loc>170</x_loc>
+      <y_loc>300</y_loc>
+    </node>
+    <node>
+      <node_id>3</node_id>
+      <node_label>D</node_label>
+      <x_loc>262</x_loc>
+      <y_loc>262</y_loc>
+    </node>
+    <node>
+      <node_id>4</node_id>
+      <node_label>E</node_label>
+      <x_loc>300</x_loc>
+      <y_loc>170</y_loc>
+    </node>
+    <node>
+      <node_id>5</node_id>
+      <node_label>F</node_label>
+      <x_loc>262</x_loc>
+      <y_loc>77</y_loc>
+    </node>
+    <node>
+      <node_id>6</node_id>
+      <node_label>G</node_label>
+      <x_loc>170</x_loc>
+      <y_loc>40</y_loc>
+    </node>
+    <node>
+      <node_id>7</node_id>
+      <node_label>H</node_label>
+      <x_loc>77</x_loc>
+      <y_loc>77</y_loc>
+    </node>
+    <node>
+      <node_id>8</node_id>
+      <node_label>G</node_label>
+      <x_loc>170</x_loc>
+      <y_loc>170</y_loc>
+    </node>
+  </nodes>
+  <edges count="14">
+    <edge directed="false">
+      <src>0</src>
+      <dst>1</dst>
+    </edge>
+    <edge directed="false">
+      <src>1</src>
+      <dst>2</dst>
+    </edge>
+    <edge directed="false">
+      <src>2</src>
+      <dst>3</dst>
+    </edge>
+    <edge directed="false">
+      <src>3</src>
+      <dst>4</dst>
+    </edge>
+    <edge directed="false">
+      <src>4</src>
+      <dst>5</dst>
+    </edge>
+    <edge directed="false">
+      <src>5</src>
+      <dst>6</dst>
+    </edge>
+    <edge directed="false">
+      <src>6</src>
+      <dst>7</dst>
+    </edge>
+    <edge directed="false">
+      <src>7</src>
+      <dst>0</dst>
+    </edge>
+    <edge directed="false">
+      <src>0</src>
+      <dst>8</dst>
+    </edge>
+    <edge directed="false">
+      <src>1</src>
+      <dst>8</dst>
+    </edge>
+    <edge directed="false">
+      <src>2</src>
+      <dst>8</dst>
+    </edge>
+    <edge directed="false">
+      <src>3</src>
+      <dst>8</dst>
+    </edge>
+    <edge directed="false">
+      <src>4</src>
+      <dst>8</dst>
+    </edge>
+    <edge directed="false">
+      <src>5</src>
+      <dst>8</dst>
+    </edge>
+    <edge directed="false">
+      <src>6</src>
+      <dst>8</dst>
+    </edge>
+    <edge directed="false">
+      <src>7</src>
+      <dst>8</dst>
+    </edge>
+  </edges>
+</graph>

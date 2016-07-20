@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<graph  name="path-4">
+  <nodes count="5">
+    <node>
+      <node_id>0</node_id>
+      <node_label>A</node_label>
+      <x_loc>50</x_loc>
+      <y_loc>50</y_loc>
+    </node>
+    <node>
+      <node_id>1</node_id>
+      <node_label>B</node_label>
+      <x_loc>150</x_loc>
+      <y_loc>25</y_loc>
+    </node>
+    <node>
+      <node_id>2</node_id>
+      <node_label>C</node_label>
+      <x_loc>250</x_loc>
+      <y_loc>50</y_loc>
+    </node>
+    <node>
+      <node_id>3</node_id>
+      <node_label>D</node_label>
+      <x_loc>350</x_loc>
+      <y_loc>25</y_loc>
+    </node>
+    <node>
+      <node_id>4</node_id>
+      <node_label>E</node_label>
+      <x_loc>450</x_loc>
+      <y_loc>50</y_loc>
+    </node>  
+  </nodes>
+  <edges count="4">
+    <edge directed="false">
+      <src>0</src>
+      <dst>1</dst>
+    </edge>
+    <edge directed="false">
+      <src>1</src>
+      <dst>2</dst>
+    </edge>
+    <edge directed="false">
+      <src>2</src>
+      <dst>3</dst>
+    </edge>
+    <edge directed="false">
+      <src>3</src>
+      <dst>4</dst>
+    </edge>
+  </edges>
+</graph><?xml version="1.0" encoding="utf-8"?>
